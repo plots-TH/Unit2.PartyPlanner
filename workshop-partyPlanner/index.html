@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Available Parties Below:</h1>
+    <ul id="party-list"></ul>
+    <form id="add-event-form">
+        <h2>Add Your Event</h2>
+        <label for="event-name">Name:</label>
+        <input type="text" id="event-name" name="Name:" required>
+        <br>
+        <label for="event-description">Description:</label>
+        <input type="text" id="event-description" name="Description:" required>
+        <br>
+        <label for="event-date">Date:</label>
+        <input type="text" name="Date:" id="event-date">
+        <br>
+        <label for="event-location">Location:</label>
+        <input type="text" name="Location:" id="event-location">
+        <br>
+        <button type="submit" class="submit-button">Add Event</button>
+    </form>
+</body>
+</html>

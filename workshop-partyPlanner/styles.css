@@ -1,0 +1,25 @@
+body{
+    background-color: bisque;
+}
+#party-list li{
+    background-color: #fff8f080;
+    border: 1px solid rgba(136, 75, 0, 0.466);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    max-width: fit-content;
+}
+
+#party-list li p {
+    margin: 10px 0; 
+}
+
+/* Style the bold labels within <p> */
+#party-list li p strong {
+    color: #000; /* Bold labels appear black */
+    font-weight: bold; /* Ensure the text is bold */
+}
+
+
